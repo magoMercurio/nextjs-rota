@@ -4,6 +4,6 @@ export function getHomeInfo() {
   return query("home")
     .then(res => {
       console.log(res)
-      return res
+      return res.data
     })
 } 
